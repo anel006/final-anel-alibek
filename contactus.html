@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English with Vampire Diaries</title>
+    <link rel="icon" type="image/png" href="2024-06-08_23-19-28.png">
+</head>
+<body>
+    <main>
+        <section>
+            <h2 align="center">Contact Us</h2>
+            <p align="center">If you have any questions or feedback, feel free to reach out to us!</p>
+            <form id="contactForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+                
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+                
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" required>
+                    <option value="Standard">Standard</option>
+                    <option value="Premium">Premium</option>
+                </select>
+                
+                <label for="payment">Payment Method:</label>
+                <select id="payment" name="payment" required>
+                    <option value="creditCard">Credit Card</option>
+                    <option value="paypal">ApplePay</option>
+                    <option value="bankTransfer">Kaspi.kz</option>
+                </select>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <p id="formStatus"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 English with Vampire Diaries</p>
+        <p>231269@astanait.edu.kz</p>
+    </footer>
+
+    <audio id="sendSound">
+        <source src="sound.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>
