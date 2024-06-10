@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English with Vampire Diaries</title>
+    <link rel="icon" type="image/png" href="2024-06-08_23-19-28.png">
+    <link rel="stylesheet" href="../csss/aboutus.css">
+    <script src="../jss/aboutus.js" defer></script>
+</head>
+<body>
+    <h1 data-lang-ru="Вам не придётся тратить время на поиск подходящего репетитора — мы уже отобрали СИЛЬНЕЙШИХ"
+       data-lang-en="You won't have to spend time searching for the right tutor — we've already selected the STRONGEST">Вам не придётся тратить время на поиск подходящего репетитора — мы уже отобрали СИЛЬНЕЙШИХ</h1>
+    <div class="container">
+        <div class="item item-1">
+            <h1 data-lang-ru="Компетентность и глубокие знания предмета"
+               data-lang-en="Expertise and deep subject knowledge">Компетентность и глубокие знания предмета</h1>
+            <p class="large-text" data-lang-ru="Уверенное владение материалом и умение объяснять сложные концепции простыми словами."
+               data-lang-en="Confident mastery of the material and the ability to explain complex concepts in simple words.">Уверенное владение материалом и умение объяснять сложные концепции простыми словами.</p>
+        </div>
+        <div class="item item-2">
+            <h1 data-lang-ru="Педагогическое мастерство"
+               data-lang-en="Pedagogical Mastery">Педагогическое мастерство</h1>
+            <p class="large-text" data-lang-ru="Эффективная передача знаний, адаптация методик под ученика и поддержка интереса к предмету."
+               data-lang-en="Effective knowledge transfer, adaptation of methods to the student, and support for interest in the subject.">Эффективная передача знаний, адаптация методик под ученика и поддержка интереса к предмету.</p>
+        </div>
+        <div class="item item-3">
+            <h1 data-lang-ru="Коммуникационные навыки"
+               data-lang-en="Communication Skills">Коммуникационные навыки</h1>
+            <p class="large-text" data-lang-ru="Умение выслушивать, понимать потребности ученика и создавать комфортную атмосферу для обучения."
+               data-lang-en="Ability to listen, understand the student's needs, and create a comfortable atmosphere for learning.">Умение выслушивать, понимать потребности ученика и создавать комфортную атмосферу для обучения.</p>
+        </div>
+        <div class="item item-4">
+            <h1 data-lang-ru="Терпение и эмпатия"
+               data-lang-en="Patience and Empathy">Терпение и эмпатия</h1>
+            <p class="large-text" data-lang-ru="Способность спокойно реагировать на трудности ученика и проявлять понимание его эмоций и переживаний."
+               data-lang-en="Ability to calmly respond to the student's difficulties and show understanding of their emotions and feelings.">Способность спокойно реагировать на трудности ученика и проявлять понимание его эмоций и переживаний.</p>
+        </div>
+    </div>
+    <h1 data-lang-ru="Как проходят занятия" data-lang-en="How the Classes Go">Как проходят занятия</h1>
+    <div class="carousel">
+        <input type="radio" name="carousel" id="carousel-1" checked>
+        <input type="radio" name="carousel" id="carousel-2">
+        <div class="carousel-container">
+            <div class="carousel-inner">
+                <div>
+                    <img src="https://avatars.mds.yandex.net/i?id=4b3553b730f0f80bf7592feaf0862ef4b5c02270-12394646-images-thumbs&n=13" alt="Фото 1">
+                    <div class="carousel-caption" data-lang-ru="Онлайн" data-lang-en="Online">Онлайн</div>
+                </div>
+                <div>
+                    <img src="https://avatars.mds.yandex.net/i?id=db04c8e1ec79592c487a75c98d5f0570-5491388-images-thumbs&n=13" alt="Фото 2">
+                    <div class="carousel-caption" data-lang-ru="Оффлайн" data-lang-en="Offline">Оффлайн</div>
+                </div>
+            </div>
+        </div>
+        <label class="carousel-control left" for="carousel-1">◀</label>
+        <label class="carousel-control right" for="carousel-2">▶</label>
+        <div class="carousel-dots">
+            <label for="carousel-1"></label>
+            <label for="carousel-2"></label>
+        </div>
+    </div>
+    <h1 data-lang-ru="Часто задаваемые вопросы" data-lang-en="Frequently Asked Questions">Часто задаваемые вопросы</h1>
+    <div class="container">
+        <div class="faq-buttons">
+            <button class="btn" onclick="toggleHiddenText(1)" data-lang-ru="Как начать заниматься" data-lang-en="How to Start Classes">Как начать заниматься</button><br>
+            <button class="btn" onclick="toggleHiddenText(2)" data-lang-ru="Стоимость занятий" data-lang-en="Cost of Classes">Стоимость занятий</button><br>
+            <button class="btn" onclick="toggleHiddenText(3)" data-lang-ru="Можно поменять график занятий или сделать паузу" data-lang-en="Can I change the class schedule or take a break">Можно поменять график занятий или сделать паузу</button>
+        </div>
+        <div class="mt-4">
+            <p class="hidden-text hidden-text-1 mt-3"
+               data-lang-ru="1) Приобретите занятия <br>2)Выберите репетитора<br>3)Приступайте к занятиям"
+               data-lang-en="1) Purchase classes <br>2) Choose a tutor<br>3) Start classes">1) Приобретите занятия <br>2)Выберите репетитора<br>3)Приступайте к занятиям</p><br>
+            <p class="hidden-text hidden-text-2 mt-3"
+               data-lang-ru="<b>Стандарт</b><br>- 40000тг<br>- 3 часа в неделю<br>- Индивидуальная программа<br>- Обратная связь<br>- Изменения 1 уровня языка<br> <b>Премиум</b> <br>- 60000тг<br>- 5 часов в неделю<br>- Индивидуальная программа<br>- Обратная связь<br>- Изменения 2 уровня языка<br>- Учителя с самым высоким рейтингом"
+               data-lang-en="<b>Standard</b><br>- 40000 KZT<br>- 3 hours per week<br>- Individual program<br>- Feedback<br>- Changes in language level 1<br> <b>Premium</b> <br>- 60000 KZT<br>- 5 hours per week<br>- Individual program<br>- Feedback<br>- Changes in language level 2<br>- Teachers with the highest rating"><b>Стандарт</b><br>- 40000 KZT<br>- 3 часа в неделю<br>- Индивидуальная программа<br>- Обратная связь<br>- Изменения 1 уровня языка<br> <b>Премиум</b> <br>- 60000 KZT<br>- 5 часов в неделю<br>- Индивидуальная программа<br>- Обратная связь<br>- Изменения 2 уровня языка<br>- Учителя с самым высоким рейтингом</p><br>
+            <p class="hidden-text hidden-text-3 mt-3"
+               data-lang-ru="Да, вы сами устанавливаете график занятий и количество уроков в неделю. Если нужно изменить расписание, обратитесь в поддержку. Изменения согласуют с учителем или подберут замену, если у вашего репетитора не будет свободных часов. Если вы хотите сделать паузу — также обратитесь к вашему репетитору или в поддержку."
+               data-lang-en="Yes, you can set your own class schedule and number of lessons per week. If you need to change the schedule, contact support. Changes will be coordinated with the teacher or a replacement will be found if your tutor has no available hours. If you want to take a break, also contact your tutor or support.">Да, вы сами устанавливаете график занятий и количество уроков в неделю. Если нужно изменить расписание, обратитесь в поддержку. Изменения согласуют с учителем или подберут замену, если у вашего репетитора не будет свободных часов. Если вы хотите сделать паузу — также обратитесь к вашему репетитору или в поддержку.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p data-lang-ru="© 2024 Английский с Дневниками Вампира" data-lang-en="© 2024 English with Vampire Diaries">© 2024 Английский с Дневниками Вампира</p>
+        <p>231269@astanait.edu.kz</p>
+    </div>
+    <button class="language-btn" onclick="toggleLanguage()">ENG / RUS</button>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
